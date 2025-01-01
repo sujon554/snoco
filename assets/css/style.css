@@ -1,0 +1,324 @@
+
+body{
+    font-family: "Space Grotesk", serif;
+    /* font-family: "Poppins", serif; */
+    color:#1A1B18;
+}
+
+
+
+
+.social i {
+font-size: 20px;
+height: 30px;
+width: 30px;
+color: #fff;
+background-color: #7ED25D;
+border-radius: 50%;
+padding:7px;
+text-align: center;
+}
+.Announcement {
+    background-color: #70CD4B;
+
+}
+
+
+
+.icon {
+    background-color: #ECECEC;
+    margin: 4px;
+padding:7px;
+    border-radius: 50%;
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+.nav-link {
+    font-size: 14px;
+    padding: 0
+}
+}
+
+
+/* hero section  */
+.hero-section {
+   background: url('https://res.cloudinary.com/dqyxbf1fk/image/upload/v1735639577/backgrounds_2_iwamih.png');
+   background-size: cover;
+    color: #fff;
+    /* height: 700px; */
+    padding: 80px 20px;
+    position: relative;
+}
+
+.hero-section h1 {
+
+    font-weight: bold;
+   letter-spacing: -2px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.shop-now-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.shop-now-btn:hover {
+    background-color: #218838;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+ .icon-box {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: #fff; */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+   
+}
+@media (min-width: 768px) {
+    .col-md-2 {
+        width: 23.666667%;
+    }
+}
+
+@media (max-width: 768px) {
+   
+}
+
+/* <!-- Our Product  --> */
+
+
+
+.product-container {
+    margin-top: 50px;
+  }
+  .product-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+  }
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  .product-card-body {
+    padding: 15px;
+  }
+ .textstar {
+    background-color: #F5F5F5;
+ }
+  
+  .addtobag:hover {
+    background-color: #000000;
+    color:#fff
+  }
+ .aboutus {
+    border:none;
+    background-image: linear-gradient(to right, #38c700 , #c2ffaa);;
+ }
+
+.packaging {
+    
+background-color: #f3f3f3;
+ 
+ 
+}
+.desc {
+    font-size: 20px;
+    font-family: "Poppins", serif; 
+
+}
+
+.pack {
+    background-color: #0E141A;
+}
+
+.Viewall {
+    border: 1px solid #ffffff70;
+    background-color: #0E141A;
+}
+
+.accordion-button::after {
+    background-image: url('https://res.cloudinary.com/dqyxbf1fk/image/upload/v1735571166/Vector_vmxb1v.png');
+
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('https://res.cloudinary.com/dqyxbf1fk/image/upload/v1735571166/Icon_gjlbpk.png')
+}
+.accordion-button:not(.collapsed) {
+    background-color: #0E141A;
+    color:#fff;
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button{
+    margin-top: 10px;
+    border: 1px solid #0000001e;
+    border-radius: 8px;
+
+    
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: unset;
+}
+
+.seemore {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.card {
+    border:none;
+}
+
+
+.artilce {
+    margin-bottom: 200px;
+}
+
+
+
+ /* Footer Section */
+.subsccribe {
+    background-image: linear-gradient(to right, #38A10F , #9FED80);
+    margin-top: -400px;
+}
+
+
+
+
+
+ .footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 250px 0 20px;
+    font-size: 0.9rem;
+  }
+
+  .footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+
+
+ 
+  .social-icons i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #3e3e3e;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .social-icons i:hover {
+    color: #8BC34A;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-info, .contact-form {
+      border-radius: 10px;
+    }
+
+    .contact-form {
+      margin-top: 20px;
+    }
+  }
+
+.footer h5 {
+  font-weight: 400;
+}
+  .copyright {
+    background-color: #101316;
+    font-weight:lighter ;
+    color:#fff;
+    border-top: 1px solid #c5c5c52c;
+  }
+
+
+
+
+
+
+
+  .content {
+    width: 360px;
+    height: 40px;
+    border-radius: 60px;
+    overflow: hidden;
+    color: #fff;
+    border: 2px solid #6fd649;
+  }
+  
+  .subscription {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+  }
+  .add-email {
+    background-color: #6BC24A;
+    color: #fff;
+    
+  }
+  .subscription .add-email{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+  }
+  
+  .subscription .submit-email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 2px);
+    width: 100px;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    margin: 1px;
+    padding: 0 25px;
+    cursor: pointer;
+    background: #ffffff;
+    color: #000000;
+  }
+  
+
+  @media (max-width: 450px) {
+    .content  {
+        width: 200px !important;
+    }
+}
